@@ -1,7 +1,7 @@
 INode.java
  INode
  MyNode
-MyQueue.java
- MyQueue
 MyLinkedList.java
  MyLinkedList
+MyQueue.java
+ MyQueue

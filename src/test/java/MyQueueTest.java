@@ -11,12 +11,8 @@ public class MyQueueTest {
         myQueue.enqueue(myFirstNode);
         myQueue.enqueue(mySecondNode);
         myQueue.enqueue(myThirdNode);
-        INode<Integer>myNode=myQueue.peak();
         myQueue.printQueue();
-        myQueue.dequeue();
         myQueue.printQueue();
-        System.out.println(myQueue.peak());
-        Assertions.assertEquals(myThirdNode.getKey(),myNode.getKey());
 
 
     }
